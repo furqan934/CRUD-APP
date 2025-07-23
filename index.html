@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini CRUD App</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+    h1 { text-align: center; }
+    #post-list { margin-top: 20px; }
+    .post { background: white; padding: 15px; margin-bottom: 10px; border-radius: 5px; }
+    .post button { margin-right: 10px; }
+  </style>
+</head>
+<body>
+
+  <h1>Mini CRUD App with API</h1>
+
+  <form id="post-form">
+    <input type="text" id="title" placeholder="Title" required />
+    <input type="text" id="body" placeholder="Body" required />
+    <button type="submit">Add Post</button>
+  </form>
+
+  <div id="post-list"></div>
+  <!-- Firebase App (core SDK) -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+
+  <!-- Firebase Realtime Database -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database-compat.js"></script>
+  
+  <script src="app.js"></script>
+</body>
+</html>
