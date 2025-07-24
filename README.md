@@ -42,6 +42,7 @@ firebase emulators:start
 firebase deploy
 ```
 ## 📁 Folder Structure
+```pgsql
 MiniCRUDApp/
 ├── CRUD-APP/
 │   └── index.html
@@ -53,8 +54,9 @@ MiniCRUDApp/
 ├── .github/
 │   └── workflows/firebase-hosting-pull-request.yml
 └── README.md
-✍️ Author
-Muhammad Furqan
-📧 furqanmf234@gmail.com
-🌐 https://github.com/furqan934
+```
+## ✍️ Author
+- Muhammad Furqan
+- 📧 furqanmf234@gmail.com
+- 🌐 https://github.com/furqan934
 
